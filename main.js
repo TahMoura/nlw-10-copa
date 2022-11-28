@@ -22,73 +22,69 @@ function createCard(date, day, games) {
 }
 
 document.querySelector("#cards").innerHTML =
-  createCard(
-    "20/11",
-    "domingo - encerrado",
-    createGame("qatar", "0  X  2", "ecuador")
-  ) +
+  createCard("20/11", "domingo", createGame("qatar", "13:00", "ecuador")) +
   createCard(
     "21/11",
-    "segunda - encerrado",
-    createGame("england", "6  X  2", "iran") +
-      createGame("senegal", "0  X  2", "netherlands") +
-      createGame("unitedStates", "1  X  1", "wales")
+    "segunda",
+    createGame("england", "10:00", "iran") +
+      createGame("senegal", "13:00", "netherlands") +
+      createGame("unitedStates", "16:00", "wales")
   ) +
   createCard(
     "22/11",
-    "Terça - encerrado",
-    createGame("argentina", "1  X  2", "saudiArabia") +
-      createGame("denmark", "0  X  0", "tunisia") +
-      createGame("mexico", "0  X  0", "poland") +
-      createGame("france", "4  X  1", "australia")
+    "Terça",
+    createGame("argentina", "07:00", "saudiArabia") +
+      createGame("denmark", "10:00", "tunisia") +
+      createGame("mexico", "13:00", "poland") +
+      createGame("france", "16:00", "australia")
   ) +
   createCard(
     "23/11",
-    "quarta - encerrado",
-    createGame("morroco", "0  X  0", "croatia") +
-      createGame("germany", "1  X  2", "japan") +
-      createGame("spain", "7  X  0", "costarica") +
-      createGame("belgium", "1  X  0", "canada")
+    "quarta",
+    createGame("morroco", "07:00", "croatia") +
+      createGame("germany", "10:00", "japan") +
+      createGame("spain", "13:00", "costarica") +
+      createGame("belgium", "16:00", "canada")
   ) +
   createCard(
     "24/11",
-    "quinta - encerrado",
-    createGame("switzerland", "1  X  0", "cameroon") +
-      createGame("urugay", "0  X  0", "southKorea") +
-      createGame("portugal", "3  X  2", "ghana") +
-      createGame("brazil", "2  X  0", "serbia")
+    "quinta",
+    createGame("switzerland", "07:00", "cameroon") +
+      createGame("urugay", "10:00", "southKorea") +
+      createGame("portugal", "13:00", "ghana") +
+      createGame("brazil", "16:00", "serbia")
   ) +
   createCard(
     "25/11",
-    "sexta - encerrado",
-    createGame("wales", "0  X  2", "iran") +
-      createGame("qatar", "1  X  3", "senegal") +
-      createGame("netherlands", "1  X  1", "ecuador") +
-      createGame("england", "0  X  0", "unitedStates")
+    "sexta",
+    createGame("wales", "07:00", "iran") +
+      createGame("qatar", "10:00", "senegal") +
+      createGame("netherlands", "13:00", "ecuador") +
+      createGame("england", "16:00", "unitedStates")
   ) +
   createCard(
     "26/11",
-    "sabado - encerrado",
-    createGame("tunisia", "0  X  1", "australia") +
-      createGame("poland", "2  X  0", "saudiArabia") +
-      createGame("france", "2  X  1", "denmark") +
-      createGame("argentina", "2  X  0", "mexico")
+    "sabado",
+    createGame("tunisia", "07:00", "australia") +
+      createGame("poland", "10:00", "saudiArabia") +
+      createGame("france", "13:00", "denmark") +
+      createGame("argentina", "16:00", "mexico")
   ) +
   createCard(
     "27/11",
-    "domingo - encerrado",
-    createGame("japan", "0  X  1", "costarica") +
-      createGame("belgium", "0  X  2", "morroco") +
-      createGame("croatia", "4  X  1", "canada") +
-      createGame("spain", "1  X  1", "germany")
+    "domingo",
+    createGame("japan", "07:00", "costarica") +
+      createGame("belgium", "10:00", "morroco") +
+      createGame("croatia", "13:00", "canada") +
+      createGame("spain", "16:00", "germany")
   ) +
   createCard(
     "28/11",
     "segunda",
-    createGame("cameroon", "3  X  3", "serbia") +
-      createGame("southKorea", "2  X  3", "ghana") +
-      createGame("brazil", "1  X  0", "switzerland") +
-      createGame("portugal", "1  X  0", "urugay")
+    createGame("cameroon", "07:00", "serbia") +
+      createGame("southKorea", "10:00", "ghana") +
+      createGame("switzerland", "13:00", "brazil") +
+      createGame("portugal", "16:00", "urugay")
   ) +
   createCard(
     "29/11",
