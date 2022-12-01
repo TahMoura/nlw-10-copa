@@ -84,7 +84,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "28/11",
-    "segunda",
+    "segunda - encerrado",
     createGame("cameroon", "3  X  3", "serbia") +
       createGame("southKorea", "2  X  3", "ghana") +
       createGame("brazil", "1  X  0", "switzerland") +
@@ -92,19 +92,19 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "29/11",
-    "terça",
-    createGame("ecuador", "12:00", "senegal") +
-      createGame("netherlands", "12:00", "qatar") +
-      createGame("iran", "16:00", "unitedStates") +
-      createGame("wales", "16:00", "england")
+    "terça - encerrado",
+    createGame("ecuador", "1  X  2", "senegal") +
+      createGame("netherlands", "2  X  0", "qatar") +
+      createGame("iran", "0  X  1", "unitedStates") +
+      createGame("wales", "0  X  3", "england")
   ) +
   createCard(
     "30/11",
-    "quarta",
-    createGame("tunisia", "12:00", "france") +
-      createGame("australia", "12:00", "denmark") +
-      createGame("poland", "16:00", "argentina") +
-      createGame("saudiArabia", "16:00", "mexico")
+    "quarta - encerrado",
+    createGame("tunisia", "1  X  0", "france") +
+      createGame("australia", "1  X  0", "denmark") +
+      createGame("poland", "0  X  2", "argentina") +
+      createGame("saudiArabia", "1  X  2", "mexico")
   ) +
   createCard(
     "01/12",
@@ -121,4 +121,60 @@ document.querySelector("#cards").innerHTML =
       createGame("ghana", "12:00", "urugay") +
       createGame("serbia", "16:00", "switzerland") +
       createGame("cameroon", "16:00", "brazil")
+  ) +
+  createCard(
+    "03/12",
+    "sábado",
+    createGame("netherlands", "12:00", "unitedStates") +
+      createGame("argentina", "16:00", "australia")
+  ) +
+  createCard(
+    "04/12",
+    "domingo",
+    createGame("france", "12:00", "poland") +
+      createGame("england", "16:00", "senegal")
+  ) +
+  createCard(
+    "05/12",
+    "segunda",
+    createGame("aconfirmar", "12:00", "aconfirmar") +
+      createGame("aconfirmar", "16:00", "aconfirmar")
+  ) +
+  createCard(
+    "06/12",
+    "terça",
+    createGame("aconfirmar", "12:00", "aconfirmar") +
+      createGame("aconfirmar", "16:00", "aconfirmar")
+  ) +
+  createCard(
+    "09/12",
+    "sexta",
+    createGame("aconfirmar", "12:00", "aconfirmar") +
+      createGame("aconfirmar", "16:00", "aconfirmar")
+  ) +
+  createCard(
+    "10/12",
+    "sábado",
+    createGame("aconfirmar", "12:00", "aconfirmar") +
+      createGame("aconfirmar", "16:00", "aconfirmar")
+  ) +
+  createCard(
+    "13/12",
+    "terça",
+    createGame("aconfirmar", "16:00", "aconfirmar")
+  ) +
+  createCard(
+    "14/12",
+    "quarta",
+    createGame("aconfirmar", "16:00", "aconfirmar")
+  ) +
+  createCard(
+    "17/12",
+    "sábado",
+    createGame("aconfirmar", "12:00", "aconfirmar")
+  ) +
+  createCard(
+    "18/12",
+    "domingo",
+    createGame("aconfirmar", "12:00", "aconfirmar")
   )
