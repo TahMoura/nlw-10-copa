@@ -109,54 +109,54 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "01/12",
     "quinta",
-    createGame("croatia", "12:00", "belgium") +
-      createGame("canada", "12:00", "morroco") +
-      createGame("japan", "16:00", "spain") +
-      createGame("costarica", "16:00", "germany")
+    createGame("croatia", "0  X  0", "belgium") +
+      createGame("canada", "1  X  2", "morroco") +
+      createGame("japan", "2  X  1", "spain") +
+      createGame("costarica", "2  X  4", "germany")
   ) +
   createCard(
     "02/12",
     "sexta",
-    createGame("southKorea", "12:00", "portugal") +
-      createGame("ghana", "12:00", "urugay") +
-      createGame("serbia", "16:00", "switzerland") +
-      createGame("cameroon", "16:00", "brazil")
+    createGame("southKorea", "2  X  1", "portugal") +
+      createGame("ghana", "0  X  2", "urugay") +
+      createGame("serbia", "2  X  3", "switzerland") +
+      createGame("cameroon", "1  X  0", "brazil")
   ) +
   createCard(
     "03/12",
     "sábado",
-    createGame("netherlands", "12:00", "unitedStates") +
-      createGame("argentina", "16:00", "australia")
+    createGame("netherlands", "3  X  1", "unitedStates") +
+      createGame("argentina", "2  X  1", "australia")
   ) +
   createCard(
     "04/12",
     "domingo",
-    createGame("france", "12:00", "poland") +
-      createGame("england", "16:00", "senegal")
+    createGame("france", "3  X  1", "poland") +
+      createGame("england", "3  X  0", "senegal")
   ) +
   createCard(
     "05/12",
     "segunda",
-    createGame("aconfirmar", "12:00", "aconfirmar") +
-      createGame("aconfirmar", "16:00", "aconfirmar")
+    createGame("japan", "1(1)x1(3)", "croatia") +
+      createGame("brazil", "4  X  1", "southKorea")
   ) +
   createCard(
     "06/12",
     "terça",
-    createGame("aconfirmar", "12:00", "aconfirmar") +
-      createGame("aconfirmar", "16:00", "aconfirmar")
+    createGame("morroco", "0(3)x0(0)", "spain") +
+      createGame("portugal", "6  X  1", "switzerland")
   ) +
   createCard(
     "09/12",
     "sexta",
-    createGame("aconfirmar", "12:00", "aconfirmar") +
-      createGame("aconfirmar", "16:00", "aconfirmar")
+    createGame("croatia", "12:00", "brazil") +
+      createGame("netherlands", "16:00", "argentina")
   ) +
   createCard(
     "10/12",
     "sábado",
-    createGame("aconfirmar", "12:00", "aconfirmar") +
-      createGame("aconfirmar", "16:00", "aconfirmar")
+    createGame("morroco", "12:00", "portugal") +
+      createGame("england", "16:00", "france")
   ) +
   createCard(
     "13/12",
