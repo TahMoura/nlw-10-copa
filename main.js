@@ -108,7 +108,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "01/12",
-    "quinta",
+    "quinta - encerrado",
     createGame("croatia", "0  X  0", "belgium") +
       createGame("canada", "1  X  2", "morroco") +
       createGame("japan", "2  X  1", "spain") +
@@ -116,7 +116,7 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "02/12",
-    "sexta",
+    "sexta - encerrado",
     createGame("southKorea", "2  X  1", "portugal") +
       createGame("ghana", "0  X  2", "urugay") +
       createGame("serbia", "2  X  3", "switzerland") +
@@ -124,57 +124,57 @@ document.querySelector("#cards").innerHTML =
   ) +
   createCard(
     "03/12",
-    "sábado",
+    "sábado - encerrado",
     createGame("netherlands", "3  X  1", "unitedStates") +
       createGame("argentina", "2  X  1", "australia")
   ) +
   createCard(
     "04/12",
-    "domingo",
+    "domingo - encerrado",
     createGame("france", "3  X  1", "poland") +
       createGame("england", "3  X  0", "senegal")
   ) +
   createCard(
     "05/12",
-    "segunda",
+    "segunda - encerrado",
     createGame("japan", "1(1)x1(3)", "croatia") +
       createGame("brazil", "4  X  1", "southKorea")
   ) +
   createCard(
     "06/12",
-    "terça",
+    "terça - encerrado",
     createGame("morroco", "0(3)x0(0)", "spain") +
       createGame("portugal", "6  X  1", "switzerland")
   ) +
   createCard(
     "09/12",
-    "sexta",
-    createGame("croatia", "12:00", "brazil") +
-      createGame("netherlands", "16:00", "argentina")
+    "sexta - encerrado",
+    createGame("croatia", "1(4)x1(2)", "brazil") +
+      createGame("netherlands", "2(3)x2(4)", "argentina")
   ) +
   createCard(
     "10/12",
-    "sábado",
-    createGame("morroco", "12:00", "portugal") +
-      createGame("england", "16:00", "france")
+    "sábado - encerrado",
+    createGame("morroco", "1  X  0", "portugal") +
+      createGame("england", "1  X  2", "france")
   ) +
   createCard(
     "13/12",
-    "terça",
-    createGame("aconfirmar", "16:00", "aconfirmar")
+    "terça - encerrado",
+    createGame("argentina", "3  X  0", "croatia")
   ) +
   createCard(
     "14/12",
-    "quarta",
-    createGame("aconfirmar", "16:00", "aconfirmar")
+    "quarta - encerrado",
+    createGame("france", "2  X  0", "morroco")
   ) +
   createCard(
     "17/12",
-    "sábado",
-    createGame("aconfirmar", "12:00", "aconfirmar")
+    "sábado - terceiro lugar",
+    createGame("croatia", "12:00", "morroco")
   ) +
   createCard(
     "18/12",
-    "domingo",
-    createGame("aconfirmar", "12:00", "aconfirmar")
+    "domingo - final",
+    createGame("argentina", "12:00", "france")
   )
